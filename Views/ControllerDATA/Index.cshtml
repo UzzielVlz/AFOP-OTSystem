@@ -1,0 +1,57 @@
+﻿@model IEnumerable<AFOP_OPTICAL_TESTINGv5.Models.Tblacquisition>
+
+@{    
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <h2> ENSAMBLES PROBADOS</h2>
+
+ <table class="table">
+     <tr>
+         <th>
+             ID
+         </th>
+        <th>
+            UnitTestID
+        </th>
+        <th>
+            UnitDUTID
+        </th>
+        <th>
+            Wevelength
+        </th>
+        <th>
+            Results
+        </th>
+        <th>
+            DateTime
+        </th>
+        <th></th>
+     </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem =>  item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem =>  item.UnitTestId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem =>  item.UnitDutid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem =>  item.Wavelength)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem =>  item.Results)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem =>  item.DateTime)
+            </td>
+            <td>
+                <a href="@Url.Action("DETALLES", "tblacquisition",new {item.UnitDutid})" class="btn btn-primary" name="btnDetalles">ENSAMBLE</a>
+            </td>
+        </tr>
+    }
+</table>

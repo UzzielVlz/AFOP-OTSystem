@@ -1,0 +1,96 @@
+﻿@model AFOP_OPTICAL_TESTINGv5.Models.Tblsetuptest
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Tblsetuptest</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sources)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sources)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.J1channels)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.J1channels)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.J2channels)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.J2channels)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Duttype)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Duttype)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dutfibers)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Dutfibers)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SetupSpecIds)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SetupSpecIds)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TestSteps)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TestSteps)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BiDirectional)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BiDirectional)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pdlmode)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pdlmode)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Opmdevices)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Opmdevices)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IsActive)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IsActive)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

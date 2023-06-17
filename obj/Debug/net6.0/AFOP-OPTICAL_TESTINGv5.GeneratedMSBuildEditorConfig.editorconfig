@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AFOP_OPTICAL_TESTINGv5
+build_property.RootNamespace = AFOP_OPTICAL_TESTINGv5
+build_property.ProjectDir = C:\Users\uzzie\OneDrive\Desktop\RESIDENCIAS\AFOP-OPTICAL_TESTINGv5\AFOP-OPTICAL_TESTINGv5\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\uzzie\OneDrive\Desktop\RESIDENCIAS\AFOP-OPTICAL_TESTINGv5\AFOP-OPTICAL_TESTINGv5
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/ControllerDATA/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGxlckRBVEFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/DATA/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREFUQVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/DATA/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREFUQVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/DATA/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREFUQVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/DATA/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREFUQVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/DATA/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcREFUQVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Home/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmljaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupcompany/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBjb21wYW55XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupcompany/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBjb21wYW55XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupcompany/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBjb21wYW55XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupcompany/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBjb21wYW55XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupcompany/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBjb21wYW55XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupdut/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBkdXRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupdut/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBkdXRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupdut/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBkdXRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupdut/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBkdXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupdut/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBkdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupspec/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBzcGVjXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupspec/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBzcGVjXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupspec/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBzcGVjXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupspec/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBzcGVjXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetupspec/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXBzcGVjXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetuptest/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXB0ZXN0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetuptest/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXB0ZXN0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetuptest/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXB0ZXN0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetuptest/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXB0ZXN0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblsetuptest/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsc2V0dXB0ZXN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblunitduts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsdW5pdGR1dHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblunitduts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsdW5pdGR1dHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblunitduts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsdW5pdGR1dHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblunitduts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsdW5pdGR1dHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Tblunitduts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGJsdW5pdGR1dHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/uzzie/OneDrive/Desktop/RESIDENCIAS/AFOP-OPTICAL_TESTINGv5/AFOP-OPTICAL_TESTINGv5/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2gqau9iufd

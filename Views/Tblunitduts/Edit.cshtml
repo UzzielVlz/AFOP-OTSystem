@@ -1,0 +1,29 @@
+﻿@model AFOP_OPTICAL_TESTINGv5.Models.Tblunitdut
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style ="text-align:center;">EDITAR TABLA</h1>
+
+@using (Html.BeginForm("Edit", "Tblunitduts", FormMethod.Post))
+{
+    <h2 style ="text-align:center;">ID: @Model.Id</h2>
+    <br />
+
+    <div class="form-group" style="text-align:center;">
+        <label style="text-align:center;">DUT Utilizado:</label><br />
+        <input type="text" style="text-align:center;" id="SetupDutid" name="SetupDutid" value="@Model.SetupDutid" />
+    <br />
+        <label style="text-align:center;">No. Serie:</label><br />
+        <input type="text" style="text-align:center;" id="SerialNumber" name="SerialNumber" value="@Model.SerialNumber" />
+    <br />
+    <br />
+        <input type="submit" value="ACTUALIZAR" class="btn btn-primary" />
+        <input type="reset" value="RESTABLECER" class="btn btn-primary" />
+        <br />
+        <br />
+        <a href="@Url.Action("Index", "Tblunitduts")">CANCELAR</a>
+    </div>
+}

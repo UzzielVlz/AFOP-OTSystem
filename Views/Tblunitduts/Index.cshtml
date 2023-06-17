@@ -1,0 +1,48 @@
+﻿@model IEnumerable<AFOP_OPTICAL_TESTINGv5.Models.Tblunitdut>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="form-group" style="text-align:center;">
+        <h1 style="text-align:center;">ORDENES PROBADAS</h1>
+
+    <form asp-controller="Tblunitduts" asp-action="Index" style="text-align:center;" method="get">
+     <p>
+            <label style="text-align:center;">Buscar:</label><br />           
+            <input type="text" style="text-align:center;width: 400px; height: 20px;" name="buscar" value="" />
+            <input type="submit" style="text-align:center;" value="Buscar" class="btn btn-sm btn-dark" />
+
+     </p>
+    </form>
+    <br />
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SetupDutid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SerialNumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SetupDutid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SerialNumber)
+            </td>
+            <td>
+                <a href="@Url.Action("Edit", "Tblunitduts", new {id = item.Id})" class="btn btn-primary" name="btnEditar"> EDITAR</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

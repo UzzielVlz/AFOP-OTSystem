@@ -1,0 +1,98 @@
+﻿@model AFOP_OPTICAL_TESTINGv5.Models.Tblsetuptest
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Tblsetuptest</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sources" class="control-label"></label>
+                <input asp-for="Sources" class="form-control" />
+                <span asp-validation-for="Sources" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="J1channels" class="control-label"></label>
+                <input asp-for="J1channels" class="form-control" />
+                <span asp-validation-for="J1channels" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="J2channels" class="control-label"></label>
+                <input asp-for="J2channels" class="form-control" />
+                <span asp-validation-for="J2channels" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Duttype" class="control-label"></label>
+                <input asp-for="Duttype" class="form-control" />
+                <span asp-validation-for="Duttype" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dutfibers" class="control-label"></label>
+                <input asp-for="Dutfibers" class="form-control" />
+                <span asp-validation-for="Dutfibers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SetupSpecIds" class="control-label"></label>
+                <input asp-for="SetupSpecIds" class="form-control" />
+                <span asp-validation-for="SetupSpecIds" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TestSteps" class="control-label"></label>
+                <input asp-for="TestSteps" class="form-control" />
+                <span asp-validation-for="TestSteps" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BiDirectional" class="control-label"></label>
+                <input asp-for="BiDirectional" class="form-control" />
+                <span asp-validation-for="BiDirectional" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pdlmode" class="control-label"></label>
+                <input asp-for="Pdlmode" class="form-control" />
+                <span asp-validation-for="Pdlmode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Opmdevices" class="control-label"></label>
+                <input asp-for="Opmdevices" class="form-control" />
+                <span asp-validation-for="Opmdevices" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsActive" class="control-label"></label>
+                <input asp-for="IsActive" class="form-control" />
+                <span asp-validation-for="IsActive" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

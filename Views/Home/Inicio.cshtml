@@ -1,0 +1,190 @@
+﻿@*@model List<AFOP_OPTICAL_TESTINGv5.Models.claseMeasuremnts>*@
+@model IEnumerable<claseMeasuremnts>
+
+@{
+    ViewData["Title"] = "INICIO";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1 style="text-align:center;">VENTANA PRINCIPAL</h1>
+
+<!-- top tiles -->
+<div class="row" style="display: inline-block; text-align:center;">
+    <div class="tile_count">
+        <div class="col-md-2 col-sm-4  tile_stats_count">
+            <span class="count_top"><i class="fa fa-industry"></i> Ensambles Total</span>
+            <div class="count">18,570</div>
+        </div>
+        <div class="col-md-2 col-sm-4  tile_stats_count">
+            <span class="count_top"><i class="fa fa-check-square" style="text-align:center;"></i> WIP Total</span>
+            <div class="count" style="text-align:center;">27</div>
+        </div>
+        <div class="col-md-2 col-sm-4  tile_stats_count">
+            <span class="count_top"><i class="fa fa-desktop"></i> Equipos Activos</span>
+            <div class="count green" style="text-align:center;">27</div>
+        </div>
+        <div class="col-md-2 col-sm-4  tile_stats_count">
+            <span class="count_top"><i class="fa fa-arrow-circle-up"></i> Ensambles Pasados</span>
+            <div class="count">1,960</div>
+        </div>
+        <div class="col-md-2 col-sm-4  tile_stats_count">
+            <span class="count_top"><i class="fa fa-arrow-circle-down"></i> Ensambles Pasados</span>
+            <div class="count">38</div>
+        </div>
+        <div class="col-md-2 col-sm-4  tile_stats_count">
+            <span class="count_top"><i class="fa fa-paper-plane"></i> Fecha de Cierre</span>
+            <div class="count">31 / 06</div>
+        </div>
+    </div>
+</div>
+<br />
+
+<!-- /top tiles -->
+<div class="row" style="text-align:center;">
+    <div class="col-md-12 col-sm-12 ">
+        <div class="x_panel tile fixed_height_1200">
+            <div class="x_title">
+                <h2 style="text-align:center;">Ensambles Probados</h2>
+                <ul class="nav navbar-right panel_toolbox">
+                    <li>
+                        <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+                <div class="widget_summary">
+                    <div class="w_left w_25">
+                        <span>NODOS</span>
+                    </div>
+                    <div class="w_center w_55">
+                        <div class="progress">
+                            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w_right w_20">
+                        <span>722 / 850</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="widget_summary">
+                    <div class="w_left w_25">
+                        <span>CONN-H</span>
+                    </div>
+                    <div class="w_center w_55">
+                        <div class="progress">
+                            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w_right w_20">
+                        <span>840 / 1200</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="widget_summary">
+                    <div class="w_left w_25">
+                        <span>HYBRID</span>
+                    </div>
+                    <div class="w_center w_55">
+                        <div class="progress">
+                            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w_right w_20">
+                        <span>211 / 470</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="widget_summary">
+                    <div class="w_left w_25">
+                        <span>MINI-HYBRID</span>
+                    </div>
+                    <div class="w_center w_55">
+                        <div class="progress">
+                            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w_right w_20">
+                        <span>188 / 940</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="widget_summary">
+                    <div class="w_left w_25">
+                        <span>CHANNELL</span>
+                    </div>
+                    <div class="w_center w_55">
+                        <div class="progress">
+                            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w_right w_20">
+                        <span>37 / 250</span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-12 col-sm-12 " style="text-align:center;">
+    <div class="dashboard_graph">
+        <div class="row x_title">
+            <div class="col-md-6">
+                <h3 style="text-align:center;">AFOP <small style="text-align:center;">ORDENES LIBERADAS</small></h3>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="form-group" style="text-align:center;">
+    <form asp-controller="Home" asp-action="Index" style="text-align:center;" method="get">
+        <p>
+            <label style="text-align:center;">Buscar:</label><br />
+            <input type="text" style="text-align:center;width: 400px; height: 20px;" name="buscar" value="" />
+            <input type="submit" style="text-align:center;" value="Buscar" class="btn btn-sm btn-dark" />
+
+        </p>
+    </form>
+    <br />
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>SERIAL NUMBER</th>
+            <th>NAME</th>
+            <th>DESCRIPTION</th>
+            <th>WAVELENGTH</th>
+            <th>RESULTS</th>
+            <th>DATE TIME</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.SerialNumber</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.Wavelength</td>
+                <td>@item.Results</td>
+                <td>@item.DateTime</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

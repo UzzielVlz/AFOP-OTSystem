@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AFOP-OPTICAL_TESTINGv5.props" />
+</Project>

@@ -1,0 +1,56 @@
+﻿@model AFOP_OPTICAL_TESTINGv5.Models.Tblsetupcompany
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="text-align:center;">EDITAR TABLA</h1>
+
+@using (Html.BeginForm("Edit", "Tblsetupcompany", FormMethod.Post))
+{
+    <h2 style ="text-align:center;">ID: @Model.Id</h2>
+    <br />
+
+    <div class="form-group" style="text-align:center;">
+        <label style="text-align:center;">Nombre:</label><br />
+        <input type="text" style="text-align:center;" id="Name" name="Name" value="@Model.Name" />
+    <br />
+        <label style="text-align:center;">Descripcion:</label><br />
+        <textarea name="message" rows="3" cols="50" style="text-align:center;" id="Description">@Model.Description</textarea>
+    <br />
+        <label style="text-align:center;">Tipo de Compañia:</label><br />
+        <input type="text" style="text-align:center;" id="Type" name="Type" value="@Model.Type" />
+    <br />
+        <label style="text-align:center;">Nombre de la Compañia:</label><br />
+        <input type="text" style="text-align:center;" id="CompanyName" name="CompanyName" size="30" value="@Model.CompanyName" />
+    <br />
+        <label style="text-align:center;">Direccion:</label><br />
+        <textarea name="message" rows="3" cols="50" style="text-align:center;" id="Address">@Model.Address</textarea>
+    <br />
+        <label style="text-align:center;">Ciudad:</label><br />
+        <input type="text" style="text-align:center;" id="City" name="City" value="@Model.City" />
+    <br />
+        <label style="text-align:center;">Estado:</label><br />
+        <input type="text" style="text-align:center;" id="State" name="State" value="@Model.State" />
+    <br />
+        <label style="text-align:center;">Pais:</label><br />
+        <input type="text" style="text-align:center;" id="Country" name="Country" value="@Model.Country" />
+    <br />
+        <label style="text-align:center;">Codigo postal:</label><br />
+        <input type="text" style="text-align:center;" id="ZipCode" name="ZipCode" value="@Model.ZipCode" />
+    <br />
+        <label style="text-align:center;">Telefono:</label><br />
+        <input type="text" style="text-align:center;" id="Phone" name="Phone" value="@Model.Phone" />
+    <br />
+        <label style="text-align:center;">Activar:</label><br />
+        <input type="text" style="text-align:center;" id="IsActive" name="IsActive" value="@Model.IsActive" />
+    <br />
+        <br />
+        <input type="submit" value="ACTUALIZAR" class="btn btn-primary" />
+        <input type="reset" value="RESTABLECER" class="btn btn-primary" />
+        <br />
+        <br />
+        <a href="@Url.Action("Index", "Tblsetupcompany")">CANCELAR</a>
+    </div>
+}

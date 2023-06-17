@@ -1,0 +1,49 @@
+﻿@model AFOP_OPTICAL_TESTINGv5.Models.Tblsetuptest
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="text-align:center;">EDITAR TABLA</h1>
+
+@using (Html.BeginForm("Edit", "Tblsetuptest", FormMethod.Post))
+{
+    <h2 style="text-align:center;">ID: @Model.Id</h2>
+    <br />
+
+    <div class="form-group" style="text-align:center;">
+        <label style="text-align:center;">Nombre del SCRIP:</label><br />
+        <input type="text" style="text-align:center;" id="Name" name="Name" value="@Model.Name" />
+        <br />
+        <label style="text-align:center;">Descripcion:</label><br />
+        <textarea name="Description" rows="2" cols="50" style="text-align:center;" id="Description">@Model.Description</textarea>
+        <br />
+        <input type="hidden" style="text-align:center;" id="Sources" name="Sources" value="@Model.Sources" />
+        <label style="text-align:center;">Cantidad de Puertos SW1:</label><br />
+        <input type="text" style="text-align:center;" id="J1channels" name="J1channels" value="@Model.J1channels" />
+        <br />
+        <label style="text-align:center;">Cantidad de Puertos SW2:</label><br />
+        <input type="text" style="text-align:center;" id="J2channels" name="J2channels" value="@Model.J2channels" />
+        <br />
+        <input type="hidden" style="text-align:center;" id="Duttype" name="Duttype" value="0" />
+        <label style="text-align:center;">Cantidad de Fibras:</label><br />
+        <input type="text" style="text-align:center;" id="Dutfibers" name="Dutfibers" value="@Model.Dutfibers" />
+        <br />
+        <input type="hidden" style="text-align:center;" id="SetupSpecIds" name="SetupSpecIds" value="@Model.SetupSpecIds" />
+        <input type="hidden" style="text-align:center;" id="TestSteps" name="TestSteps" value="@Model.TestSteps" />
+        <input type="hidden" style="text-align:center;" id="BiDirectional" name="BiDirectional" value="1" />
+        <input type="hidden" style="text-align:center;" id="Pdlmode" name="Pdlmode" value="@Model.Pdlmode" />
+        <input type="hidden" style="text-align:center;" id="Opmdevices" name="Opmdevices" value="@Model.Opmdevices" />
+        <br />
+        <label style="text-align:center;">Activar:</label><br />
+        <input type="text" style="text-align:center;" id="IsActive" name="IsActive" value="@Model.IsActive" />
+        <br />
+        <br />
+        <input type="submit" value="ACTUALIZAR" class="btn btn-primary" />
+        <input type="reset" value="RESTABLECER" class="btn btn-primary" />
+        <br />
+        <br />
+        <a href="@Url.Action("Index", "Tblsetuptest")">CANCELAR</a>
+    </div>
+}
